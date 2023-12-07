@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.poster-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: url('Backgroung-image.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.bottom-text {
+  color: rgb(245, 215, 171);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(242, 97, 20);
+  font-size: 3em;
+  font-weight:600;
+  margin-bottom: 2px;
+}
+
+.release-info {
+  display: flex;
+  justify-content: space-between; /* Equal space between elements */
+  margin: 10px 0;
+  width: 100%; /* Ensure the elements take up the full width */
+}
+
+.release-info h4 {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.poster-container *:not(.names-container) {
+  margin: 2px 0;
+}
